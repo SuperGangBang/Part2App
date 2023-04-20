@@ -1,0 +1,11 @@
+        self.cluster_label = ttk.Label(master, text="Номер кластера")
+        self.cluster_label.grid(row=0, column=0, padx=10, pady=10)
+
+        self.cluster_entry = ttk.Entry(master)
+        self.cluster_entry.grid(row=0, column=1, padx=10, pady=10)
+
+        self.date_label = ttk.Label(master, text="Дата:")
+        self.date_label.grid(row=1, column=0, padx=10, pady=10)
+
+        self.date_entry = ttk.Entry(master)
+        self.date_entry.grid(row=1, column=1, padx=10, pady=10)
